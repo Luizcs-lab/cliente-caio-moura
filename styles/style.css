@@ -8,15 +8,19 @@ header{
   flex-direction: column;
   
   align-items: flex-start;
-  background-color: gray;
+  background-color: rgb(63, 63, 63);
   border-radius:5px;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  box-shadow: 10px;
+  
 }
 
 main{
   margin-top: 5%;
   width:auto;
-  height: 300px;
-  background-color: gray;
+  height: 350px;
+  background-color: rgb(63, 63, 63);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -24,12 +28,20 @@ main{
   flex-direction: column;
   border-style: solid;
   border-color: darkgoldenrod;
+  color: white;
+  font-size: larger;
 }
 #conteudo{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 450px;
+  background-color: rgb(0, 78, 0);
+  border-style: double ;
+  border-color: darkgoldenrod ;
+  border-radius: 20px;
+  
 }
 h1{
   
@@ -49,14 +61,16 @@ p{
 
 .conteiner{
   width:auto;
-  height: 100px;
-  background-color: gray;
+  height: auto;
+  background-color: rgb(63, 63, 63);
   display: flex;
   flex-direction: column;
-  margin-top: 20%;
+  margin-top: 3%;
   align-items: center;
   justify-content: center;
-  border-radius: 3%;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
 }
 #contatos{
   display: flex;
